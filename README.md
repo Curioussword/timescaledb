@@ -116,6 +116,13 @@ CREATE TABLE trading_data (
 SELECT create_hypertable('trading_data', 'timestamp');
 
 
+**** To use your database and you are connecting remotely this is something you will need to install 
+
+sudo apt update
+sudo apt install libpq-dev python3-dev
+
+then you can pip install psycopg2
+
 This is all for now
 
 
