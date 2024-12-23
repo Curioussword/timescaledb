@@ -123,6 +123,12 @@ sudo apt install libpq-dev python3-dev
 
 then you can pip install psycopg2
 
+_____________________________________________
+also can use this to view your docker image
+*****
+docker ps
+*****
+
 This is all for now
 
 
