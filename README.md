@@ -134,6 +134,16 @@ and as an example - sudo ufw allow 45081/tcp
 can usually check your public ip's using ---  curl ifconfig.me
 
 
+End result after we ran script from remote server
+can query it by logging into it using ----  psql -U postgres -d trading_data -h localhost -p 5432
+
+SELECT * FROM trading_data;
+
+
+<img width="1440" alt="Screenshot 2024-12-23 at 8 31 53 PM" src="https://github.com/user-attachments/assets/735bd8d9-0df6-4c5e-9492-02ac35c9b3d5" />
+
+
+
 
 
 
