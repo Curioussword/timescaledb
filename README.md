@@ -129,7 +129,7 @@ also can use this to view your docker image
 docker ps
 *****
 
-This is all for now
+
 
 
 
