@@ -129,6 +129,11 @@ also can use this to view your docker image
 docker ps
 *****
 
+also, last bit here - also double check open ports on your machine or machines and you have need to allow that port through the firewall
+and as an example - sudo ufw allow 45081/tcp
+can usually check your public ip's using ---  curl ifconfig.me
+
+
 
 
 
